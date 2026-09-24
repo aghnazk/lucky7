@@ -13,6 +13,16 @@ npm test         # ujian enjin permainan
 npm run build    # binaan produksi ke dist/
 ```
 
+## Laragon / XAMPP (tanpa Node.js)
+
+Repo ini menyertakan versi siap-bina dalam `dist/`, jadi ia boleh terus dijalankan:
+
+1. `git clone` ke dalam folder `www` Laragon (contohnya `C:\laragon\www\lucky7`).
+2. Pastikan Laragon (Apache) sedang berjalan.
+3. Buka **http://localhost/lucky7**. `index.php` akan mengalihkan anda ke `dist/`.
+
+Jika anda mengubah kod dalam `src/`, bina semula dengan `npm install` dan `npm run build`, kemudian commit folder `dist/` yang dikemas kini.
+
 ## Peraturan ringkas
 
 | Kad | Mata | Kuasa (apabila masuk ke timbunan buang) |
